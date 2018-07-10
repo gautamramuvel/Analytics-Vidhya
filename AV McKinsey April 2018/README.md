@@ -17,7 +17,7 @@ I looked at the distribution of all variables, the possible values they can take
 
 Next, I imputed missing values for smoking_status and bmi using a group based mode and median respectively. I created a new feature HTpHD which is the sum of heart_disease and hypertension. The intuition behind this was to create a variable denoting the severeness of a disease affecting the patient.
 
-## Modelling
+## Modeling
 
 I have used logistic regression, xgboost trees and catboost models. I tuned the parameters for each using randomized search with 5-old cross-validation. Features were selected based on how they affected the cross-validation accuracy.
 
